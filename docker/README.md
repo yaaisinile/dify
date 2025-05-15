@@ -20,8 +20,7 @@ Welcome to the new `docker` directory for deploying Dify using Docker Compose. T
 1. **Prerequisites**: Ensure Docker and Docker Compose are installed on your system.
 2. **Environment Setup**:
     - Navigate to the `docker` directory.
-    - Copy the `.env.example` file to a new file named `.env` by running `cp .env.example .env`.
-    - Customize the `.env` file as needed. Refer to the `.env.example` file for detailed configuration options.
+    - Customize the `.env` file as needed. Refer to the `.env` file for detailed configuration options.
 3. **Running the Services**:
     - Execute `docker compose up` from the `docker` directory to start the services.
     - To specify a vector database, set the `VECTOR_STORE` variable in your `.env` file to your desired vector database service, such as `milvus`, `weaviate`, or `opensearch`.
